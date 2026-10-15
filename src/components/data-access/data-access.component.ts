@@ -287,17 +287,29 @@ export default class TerraDataAccess extends QueryClientMixin(TerraElement) {
                         return ''
                     }
 
-                    const url = params.data.umm.RelatedUrls?.find(
+                    const urls = params.data.umm.RelatedUrls?.filter(
                         (relatedUrl) =>
                             relatedUrl.Type === RelatedURLTypeEnum.GetData,
-                    )?.URL
+                    ).map(relatedUrl => relatedUrl.URL);
 
-                    if (url) {
+                    if (urls) {
                         const link = document.createElement('a')
-                        link.href = url
-                        link.target = '_blank'
-                        link.title = url
+                        link.href = "#";
+                        link.title = urls.join(",\n\n");
                         link.textContent = params.data.umm.GranuleUR
+                        link.onclick = () => {
+                            urls.forEach((url) => {
+                                console.log("Opening " + url);
+                                // TODO: this opens one tab for each URL and
+                                // works pretty smoothly (tabs auto-close after
+                                // download) if the user is already logged into
+                                // EDL, but if not, then each tab opens the EDL
+                                // login page. Is there a way to check if a user is
+                                // logged in and force a login before triggering
+                                // this behavior?
+                                open(url);
+                            })
+                        }
 
                         return link
                     }
