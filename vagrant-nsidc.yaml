@@ -1,0 +1,6 @@
+---
+project: terra-ui-components
+gitrepo: git@github.com:nsidc/terra-ui-components.git
+vsphere:
+  template:
+    default: resolute64-nsidc-sec-openvox8
