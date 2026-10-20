@@ -171,3 +171,59 @@ access component (no "Transform Data" tab)
 ```html:preview
 <terra-data-subsetter short-name="NSIDC-0731" version="5"></terra-data-subsetter>
 ```
+
+## ILVGH2 v001 (Spatial coverage: Arctic and Antarctica)
+
+### Data access component
+
+```html:preview
+<terra-data-access short-name="ILVGH2" version="001"></terra-data-access>
+```
+
+### Data Subsetter component
+
+```html:preview
+<terra-data-subsetter short-name="ILVGH2" version="001"></terra-data-subsetter>
+```
+
+## IRARES1B v001 (Smaller spatial coverage (eg. not global))
+
+### Data access component
+
+```html:preview
+<terra-data-access short-name="IRARES1B" version="001"></terra-data-access>
+```
+
+### Data Subsetter component
+
+```html:preview
+<terra-data-subsetter short-name="IRARES1B" version="001"></terra-data-subsetter>
+```
+
+## SNEX20_QSI_SD_3m v001 (Multiple temporal ranges)
+
+### Data access component
+
+```html:preview
+<terra-data-access short-name="SNEX20_QSI_SD_3m" version="001"></terra-data-access>
+```
+
+### Data Subsetter component
+
+```html:preview
+<terra-data-subsetter short-name="SNEX20_QSI_SD_3m" version="001"></terra-data-subsetter>
+```
+
+##  GLAH03 v033 (Doesn’t have spatial information so currently doesn’t work with the NSIDC DAT)
+
+### Data access component
+
+```html:preview
+<terra-data-access short-name="GLAH03" version="033"></terra-data-access>
+```
+
+### Data Subsetter component
+
+```html:preview
+<terra-data-subsetter short-name="GLAH03" version="033"></terra-data-subsetter>
+```
