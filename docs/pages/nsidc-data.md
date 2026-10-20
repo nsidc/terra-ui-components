@@ -3,9 +3,21 @@ meta:
     title: NSIDC Data Access
     description: NSIDC-specific examples of data access and subsetting
 ---
+## ATL03 v007
+
+### Data access component
+
+```html:preview
+<terra-data-access short-name="ATL03" version="007"></terra-data-access>
+```
+
+### Data Subsetter component
+
+```html:preview
+<terra-data-subsetter short-name="ATL03" version="007"></terra-data-subsetter>
+```
 
 ## ATL08 v007
-
 
 ### Data access component
 
@@ -22,7 +34,119 @@ component does not correctly show filesize.
 <terra-data-subsetter short-name="ATL08" version="007"></terra-data-subsetter>
 ```
 
-## NSIDC-0731 v5
+## NSIDC-0051 v2
+
+### Data access component
+
+```html:preview
+<terra-data-access short-name="NSIDC-0051" version="2"></terra-data-access>
+```
+
+### Data Subsetter component
+
+```html:preview
+<terra-data-subsetter short-name="NSIDC-0051" version="2"></terra-data-subsetter>
+```
+
+## SPL3SMP_E v006
+
+### Data access component
+
+```html:preview
+<terra-data-access short-name="SPL3SMP_E" version="006"></terra-data-access>
+```
+
+### Data Subsetter component
+
+```html:preview
+<terra-data-subsetter short-name="SPL3SMP_E" version="006"></terra-data-subsetter>
+```
+
+## HMA_DEM8m_MOS v001
+
+### Data access component
+
+```html:preview
+<terra-data-access short-name="HMA_DEM8m_MOS" version="001"></terra-data-access>
+```
+
+### Data Subsetter component
+
+```html:preview
+<terra-data-subsetter short-name="HMA_DEM8m_MOS" version="001"></terra-data-subsetter>
+```
+
+## MOD10A1 v0061
+
+### Data access component
+
+```html:preview
+<terra-data-access short-name="MOD10A1" version="0061"></terra-data-access>
+```
+
+### Data Subsetter component
+
+```html:preview
+<terra-data-subsetter short-name="MOD10A1" version="0061"></terra-data-subsetter>
+```
+
+## ATL13 v007
+
+### Data access component
+
+```html:preview
+<terra-data-access short-name="ATL13" version="007"></terra-data-access>
+```
+
+### Data Subsetter component
+
+```html:preview
+<terra-data-subsetter short-name="ATL13" version="007"></terra-data-subsetter>
+```
+
+## ATL06 v007
+
+### Data access component
+
+```html:preview
+<terra-data-access short-name="ATL06" version="007"></terra-data-access>
+```
+
+### Data Subsetter component
+
+```html:preview
+<terra-data-subsetter short-name="ATL06" version="007"></terra-data-subsetter>
+```
+
+## SPL3SMP v009
+
+### Data access component
+
+```html:preview
+<terra-data-access short-name="SPL3SMP" version="009"></terra-data-access>
+```
+
+### Data Subsetter component
+
+```html:preview
+<terra-data-subsetter short-name="SPL3SMP" version="009"></terra-data-subsetter>
+```
+
+## ATL24 v002
+
+### Data access component
+
+```html:preview
+<terra-data-access short-name="ATL24" version="002"></terra-data-access>
+```
+
+### Data Subsetter component
+
+```html:preview
+<terra-data-subsetter short-name="ATL24" version="002"></terra-data-subsetter>
+```
+
+## NSIDC-0731 v5 (Multi-file granule example)
 
 ### Data access component
 
