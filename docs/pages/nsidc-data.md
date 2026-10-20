@@ -7,6 +7,9 @@ meta:
 
 ### Data access component
 
+* Using a filename search (e.g., `ATL03_2018101`) narrows the
+  results, but then using the Python script fails - no granules are downloaded.
+
 ```html:preview
 <terra-data-access short-name="ATL03" version="007"></terra-data-access>
 ```
@@ -41,6 +44,11 @@ component does not correctly show filesize.
 ```html:preview
 <terra-data-access short-name="NSIDC-0051" version="2"></terra-data-access>
 ```
+
+* Spatial and temporal filtering appears to work
+* Filename search filters listed results (e.g.,
+  `NSIDC0051_SEAICE_PS_N25km_19781027`) but Python download script does not
+  work with result (0 files downloaded).
 
 ### Data Subsetter component
 
@@ -222,8 +230,17 @@ access component (no "Transform Data" tab)
 <terra-data-access short-name="GLAH03" version="033"></terra-data-access>
 ```
 
+* Using a filename search (e.g., `GLAH03_033_1102_001_0083`) narrows the
+  results, but then using the Python script fails - no granules are downloaded.
+* Temporal filter appears to work and python script works with it.
+* Spatial filter is avialable, attempting to set the spatial filter will result
+  in no granules found. Can we set this up to exclude the spatial filter option
+  when no spatial metadata is available?
+
 ### Data Subsetter component
 
 ```html:preview
 <terra-data-subsetter short-name="GLAH03" version="033"></terra-data-subsetter>
 ```
+
+* Subsetter does not appear for this dataset - must not have Harmony support.
