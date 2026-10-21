@@ -208,18 +208,18 @@ access component (no "Transform Data" tab)
 <terra-data-subsetter short-name="IRARES1B" version="001"></terra-data-subsetter>
 ```
 
-## SNEX20_QSI_SD_3m v001 (Multiple temporal ranges)
+## SNEX20_QSI_SD_3m v1 (Multiple temporal ranges)
 
 ### Data access component
 
 ```html:preview
-<terra-data-access short-name="SNEX20_QSI_SD_3m" version="001"></terra-data-access>
+<terra-data-access short-name="SNEX20_QSI_SD_3m" version="1"></terra-data-access>
 ```
 
 ### Data Subsetter component
 
 ```html:preview
-<terra-data-subsetter short-name="SNEX20_QSI_SD_3m" version="001"></terra-data-subsetter>
+<terra-data-subsetter short-name="SNEX20_QSI_SD_3m" version="1"></terra-data-subsetter>
 ```
 
 ##  GLAH03 v033 (Doesn’t have spatial information so currently doesn’t work with the NSIDC DAT)
