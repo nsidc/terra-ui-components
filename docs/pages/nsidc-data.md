@@ -70,18 +70,18 @@ component does not correctly show filesize.
 <terra-data-subsetter short-name="SPL3SMP_E" version="006"></terra-data-subsetter>
 ```
 
-## HMA_DEM8m_MOS v001
+## HMA_DEM8m_MOS v1
 
 ### Data access component
 
 ```html:preview
-<terra-data-access short-name="HMA_DEM8m_MOS" version="001"></terra-data-access>
+<terra-data-access short-name="HMA_DEM8m_MOS" version="1"></terra-data-access>
 ```
 
 ### Data Subsetter component
 
 ```html:preview
-<terra-data-subsetter short-name="HMA_DEM8m_MOS" version="001"></terra-data-subsetter>
+<terra-data-subsetter short-name="HMA_DEM8m_MOS" version="1"></terra-data-subsetter>
 ```
 
 ## MOD10A1 v0061
